@@ -30,8 +30,6 @@ let firstCard = random(1, 13);
 let secondCard = rand(1, 13);
 let thirdCard = ran(1, 13);
 let fourthCard=ra(1,13)
-let cards=[firstCard,secondCard,thirdCard,fourthCard,fifthCard]
-
 function begin(){
   var sum = firstCard + secondCard
   sumEl.textContent="Sum:"+sum
