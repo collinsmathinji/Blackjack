@@ -1,0 +1,55 @@
+.body{
+   background-image: url(back.jpg);
+   background-size: cover;
+    text-align: center;
+    font-family: "fogaz",cursive;
+}
+.head{
+    width: 25%;
+    margin-left: 37%;
+    margin-right: 73%;
+    background-image: linear-gradient(rgb(11, 20, 11),rgb(128, 168, 69));
+    color: greenyellow;
+}
+#card-e{
+    margin-top: 0%;
+    font-family: "fogaz",cursive;
+    font-size: large;
+}
+#start{
+    background-color: chocolate;
+    font-size: larger;
+    color: green;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+}
+#message-el{
+    width: 25%;
+    margin-left: 37%;
+    margin-right: 73%;
+    background-image: linear-gradient(rgb(11, 20, 11),rgb(128, 168, 69));
+    color: greenyellow;
+}
+#new{
+    margin-top: 4px;
+    background-color: chocolate;
+    font-size: larger;
+    color: green;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+}
+#sum-el{
+    font-weight: bolder;
+}
+#cards{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+    
