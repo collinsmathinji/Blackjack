@@ -135,7 +135,7 @@ function ml(){
     sumEl.textContent="Sum:"+sum
     if(sum<21){
       hasBlackJack = false
-      messageEl.textContent="Sorry,you ran out of cards"
+      messageEl.textContent="we are sorry,you ran out of cards"
   }
    else if(sum==21){
       hasBlackJack ==false
