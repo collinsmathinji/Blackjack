@@ -37,8 +37,7 @@ function begin(){
   sumEl.textContent="Sum:"+sum
   if(sum<21){
     hasBlackJack = false
-    messageEl.textContent="You are lucky ,try a new card"
-}
+    messageEl.textContent="Try another card"}
  else if(sum==21){
     hasBlackJack ==false
     messageEl.textContent="You won";
@@ -136,7 +135,7 @@ function ml(){
     sumEl.textContent="Sum:"+sum
     if(sum<21){
       hasBlackJack = false
-      messageEl.textContent="Ran out of cards"
+      messageEl.textContent="You are lucky ,try a new card"
   }
    else if(sum==21){
       hasBlackJack ==false
